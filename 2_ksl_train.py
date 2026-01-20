@@ -10,7 +10,7 @@ from sklearn.metrics import accuracy_score
 # --- CONFIGURATION ---
 DATA_PATH = os.path.join('MP_Data')
 ACTIONS = np.array(['chumreapsour', 'orkun', 'trov', 'nothing', 'howru', 'mineyte', 'deaf', 'soursdey', 'WC', 'i dont understand', 'zero']) 
-EPOCHS = 60
+EPOCHS = 70
 BATCH_SIZE = 16
 
 # --- 1. LOAD DATA ---
